@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  background-color: rgb(35 39 47);
+}
+
+.logo {
+  color: rgb(88 196 220);
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+
+  li {
+    a {
+      color: rgb(246 247 249);
+      transition: all 0.6s ease;
+      padding: 10px 20px;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: rgb(64 71 86);
+      }
+    }
+  }
+}
+
+.login {
+  color: rgb(64 71 86) !important;
+  background-color: rgb(88 196 220);
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: all 0.6s ease;
+
+  &:hover {
+    color: rgb(246 247 249) !important;
+    background-color: rgb(64 71 86);
+  }
+}

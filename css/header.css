@@ -1,0 +1,47 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 100px;
+  background-color: rgb(35, 39, 47);
+}
+
+.logo {
+  color: rgb(88, 196, 220);
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.list li a {
+  color: rgb(246, 247, 249);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.list li a:hover {
+  background-color: rgb(64, 71, 86);
+}
+
+.login {
+  color: rgb(64, 71, 86) !important;
+  background-color: rgb(88, 196, 220);
+  padding: 10px 20px;
+  border-radius: 15px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.login:hover {
+  color: rgb(246, 247, 249) !important;
+  background-color: rgb(64, 71, 86);
+}/*# sourceMappingURL=header.css.map */
