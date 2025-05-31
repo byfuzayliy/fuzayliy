@@ -1,4 +1,15 @@
-.navbar {
+header {
+  background-color: rgb(35, 39, 47);
+}
+header .quotes {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 3px 0;
+  color: rgb(35, 39, 47);
+  font-weight: bold;
+}
+header .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,31 +20,27 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px 100px;
-  background-color: rgb(35, 39, 47);
 }
-
-.logo {
+header .navbar .logo {
   color: rgb(88, 196, 220);
 }
-
-.list {
+header .navbar .list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
-.list li a {
+header .navbar .list li a {
   color: rgb(246, 247, 249);
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   padding: 10px 20px;
   border-radius: 10px;
 }
-.list li a:hover {
+header .navbar .list li a:hover {
   background-color: rgb(64, 71, 86);
 }
-
-.login {
+header .navbar .login {
   color: rgb(64, 71, 86) !important;
   background-color: rgb(88, 196, 220);
   padding: 10px 20px;
@@ -41,7 +48,74 @@
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-.login:hover {
+header .navbar .login:hover {
   color: rgb(246, 247, 249) !important;
   background-color: rgb(64, 71, 86);
+}
+header .navbar .menu-btn {
+  display: none;
+  padding: 5px;
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(88, 196, 220);
+  background-color: rgb(35, 39, 47);
+  border: 2px solid rgb(88, 196, 220);
+  border-radius: 3px;
+}
+
+@media screen and ((min-width: 375px) and (max-width: 768px)) {
+  header {
+    background-color: rgb(35, 39, 47);
+  }
+  header .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px 20px;
+  }
+  header .navbar .logo {
+    color: rgb(88, 196, 220);
+  }
+  header .navbar .list {
+    display: none;
+    gap: 10px;
+  }
+  header .navbar .list li a {
+    color: rgb(246, 247, 249);
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  header .navbar .list li a:hover {
+    background-color: rgb(64, 71, 86);
+  }
+  header .navbar .login {
+    color: rgb(64, 71, 86) !important;
+    background-color: rgb(88, 196, 220);
+    padding: 10px 20px;
+    border-radius: 15px;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+  }
+  header .navbar .login:hover {
+    color: rgb(246, 247, 249) !important;
+    background-color: rgb(64, 71, 86);
+  }
+  header .navbar .menu-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }/*# sourceMappingURL=header.css.map */

@@ -1,42 +1,110 @@
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 100px;
+header {
   background-color: rgb(35 39 47);
-}
+  .quotes {
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 3px 0;
+    color: rgb(35 39 47);
+    font-weight: bold;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    .logo {
+      color: rgb(88 196 220);
+    }
+    .list {
+      display: flex;
+      gap: 10px;
 
-.logo {
-  color: rgb(88 196 220);
-}
+      li {
+        a {
+          color: rgb(246 247 249);
+          transition: all 0.6s ease;
+          padding: 10px 20px;
+          border-radius: 10px;
 
-.list {
-  display: flex;
-  gap: 10px;
-
-  li {
-    a {
-      color: rgb(246 247 249);
-      transition: all 0.6s ease;
+          &:hover {
+            background-color: rgb(64 71 86);
+          }
+        }
+      }
+    }
+    .login {
+      color: rgb(64 71 86) !important;
+      background-color: rgb(88 196 220);
       padding: 10px 20px;
-      border-radius: 10px;
+      border-radius: 15px;
+      transition: all 0.6s ease;
 
       &:hover {
+        color: rgb(246 247 249) !important;
         background-color: rgb(64 71 86);
       }
+    }
+
+    .menu-btn {
+      display: none;
+      padding: 5px;
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+      color: rgb(88 196 220);
+      background-color: rgb(35 39 47);
+      border: 2px solid rgb(88 196 220);
+      border-radius: 3px;
     }
   }
 }
 
-.login {
-  color: rgb(64 71 86) !important;
-  background-color: rgb(88 196 220);
-  padding: 10px 20px;
-  border-radius: 15px;
-  transition: all 0.6s ease;
+@media screen and ((min-width: 375px ) and (max-width:768px)) {
+  header {
+    background-color: rgb(35 39 47);
 
-  &:hover {
-    color: rgb(246 247 249) !important;
-    background-color: rgb(64 71 86);
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      .logo {
+        color: rgb(88 196 220);
+      }
+      .list {
+        display: none;
+        gap: 10px;
+
+        li {
+          a {
+            color: rgb(246 247 249);
+            transition: all 0.6s ease;
+            padding: 10px 20px;
+            border-radius: 10px;
+
+            &:hover {
+              background-color: rgb(64 71 86);
+            }
+          }
+        }
+      }
+      .login {
+        color: rgb(64 71 86) !important;
+        background-color: rgb(88 196 220);
+        padding: 10px 20px;
+        border-radius: 15px;
+        transition: all 0.6s ease;
+
+        &:hover {
+          color: rgb(246 247 249) !important;
+          background-color: rgb(64 71 86);
+        }
+      }
+
+      .menu-btn {
+        display: flex;
+      }
+    }
   }
 }
