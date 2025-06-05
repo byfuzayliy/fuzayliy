@@ -1,0 +1,77 @@
+footer {
+  background-color: rgb(35, 39, 47);
+
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        width: 80px;
+        margin-right: 10px;
+      }
+
+      h2 {
+        color: rgb(246, 247, 249);
+        font-size: 1.5rem;
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+
+      a {
+        font-size: 25px;
+        transition: color 0.3s ease;
+
+        &:nth-child(1) {
+          color: #0088cc; // Telegram
+        }
+        &:nth-child(2) {
+          color: #ff0000; // YouTube
+        }
+        &:nth-child(3) {
+          color: #0e76a8; // LinkedIn
+        }
+        &:nth-child(4) {
+          color: #ffffff; // GitHub
+        }
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .footer-top {
+    text-align: center;
+    color: rgb(246, 247, 249);
+    padding: 7px 0;
+    border-top: 2px solid #fff;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px;
+      gap: 20px;
+
+      .footer-logo {
+        justify-content: center;
+      }
+
+      .social-icons {
+        justify-content: center;
+      }
+    }
+  }
+}
