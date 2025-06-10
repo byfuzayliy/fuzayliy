@@ -1,0 +1,86 @@
+footer {
+  background-color: rgb(35, 39, 47);
+}
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+footer .footer .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+footer .footer .footer-logo img {
+  width: 80px;
+  margin-right: 10px;
+}
+footer .footer .footer-logo h2 {
+  color: rgb(246, 247, 249);
+  font-size: 1.5rem;
+}
+footer .footer .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+footer .footer .social-icons a {
+  font-size: 25px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+footer .footer .social-icons a:nth-child(1) {
+  color: #0088cc;
+}
+footer .footer .social-icons a:nth-child(2) {
+  color: #ff0000;
+}
+footer .footer .social-icons a:nth-child(3) {
+  color: #0e76a8;
+}
+footer .footer .social-icons a:nth-child(4) {
+  color: #ffffff;
+}
+footer .footer .social-icons a:hover {
+  opacity: 0.7;
+}
+footer .footer-top {
+  text-align: center;
+  color: rgb(246, 247, 249);
+  padding: 7px 0;
+  border-top: 2px solid #fff;
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  footer .footer {
+    padding: 20px;
+    gap: 20px;
+  }
+  footer .footer .footer-logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer .social-icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

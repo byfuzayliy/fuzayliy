@@ -1,16 +1,9 @@
-import React from "react";
-import Header from "../../components/header/header";
-import { Outlet } from "react-router-dom";
-import Footer from "../../components/footer/footer";
+import Herro from "../../components/herro";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <main>
-        <Outlet />
-      </main>
-      <Footer />
+      <Herro />
     </div>
   );
 };
