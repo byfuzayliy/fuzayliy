@@ -13,8 +13,8 @@ html {
 }
 
 .container {
-  max-width: 1440px;
-  margin: 0 auto;
+  max-width: 1440px !important;
+  margin: 0 auto !important;
 }
 
 body {
