@@ -4,15 +4,15 @@
   padding-top: 3rem;
   position: relative;
 }
-.site-footer .footer-container {
-  max-width: 1440px !important;
-  margin: 0 auto !important;
-}
 .site-footer .footer-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   padding-bottom: 2rem;
+  padding: 15px 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .site-footer .footer-main .footer-brand .footer-logo {
   display: -webkit-box;

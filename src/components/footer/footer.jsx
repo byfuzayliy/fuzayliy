@@ -74,13 +74,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        <div className="footer-bottom">
-          <p>© {currentYear} Aziz Abduhakimov. All rights reserved.</p>
-          <div className="legal-links">
-            <Link to="/privacy">Privacy Policy</Link>
-            <Link to="/terms">Terms of Service</Link>
-          </div>
+      </div>
+      <div className="footer-bottom">
+        <p>© {currentYear} Aziz Abduhakimov. All rights reserved.</p>
+        <div className="legal-links">
+          <Link to="/privacy">Privacy Policy</Link>
+          <Link to="/terms">Terms of Service</Link>
         </div>
       </div>
     </footer>
